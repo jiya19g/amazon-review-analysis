@@ -17,11 +17,32 @@ The key objectives of this project include:
 - **Hypothesis Testing**: Conducting hypothesis tests on various correlations (e.g., number of reviews vs. average rating).
 - **Visualizations**: Using word clouds, scatter plots, and histograms to represent different facets of the dataset.
 
-## Installation
+Make sure you have Python installed in your environment. Then, follow these steps to set up and run the project:
 
-Just download the repository and run the Jupyter notebooks. 
+1. Clone the repository and navigate to the project directory.
+2. Install the required packages. If they are not present in your environment, install them using `requirements.txt`.
 
+```bash
+pip install -r requirements.txt
+```
+3. Alternatively, you can create and activate a virtual environment:
+   
+## Create Virtual Environment
+To create a virtual environment, run the following command:
 
+```bash
+python -m venv venv
+```
+To activate the virtual environment, use one of the following commands based on your operating system:
+
+On Windows:
+```bash
+venv\Scripts\activate
+```
+On macOS/Linux:
+```bash
+source venv/bin/activate
+```
 
 ## Usage
 
@@ -37,3 +58,4 @@ Feel free to contact me if you have any questions or suggestions.
 
 If you use this dataset in your work, please cite the following paper:
 
+Ni, J., Li, J. and McAuley, J., 2019, November. Justifying recommendations using distantly-labeled reviews and fine-grained aspects. In Proceedings of the 2019 conference on empirical methods in natural language processing and the 9th international joint conference on natural language processing (EMNLP-IJCNLP) (pp. 188-197).
